@@ -10,15 +10,15 @@
 </head>
 <body>
     <div class ="container">
-        <h1>Login</h1>
-        <input type="text" placeholder="Usuário" id=" nome">
+        <img src="../Assets/Imagens/LogoSB.png" width="100px" height="auto" class="img-logo" alt="Logo">
+        <input type="text" placeholder="Usuário" id="nome">
         <div style="position: relative;">
-        <input type="text" placeholder="Senha" id=" senha">
+        <input type="password" placeholder="Senha" id="senha">
         <span onclick="showPassword()" class=" key">👀</span>
     </div>
-    <button onclick="login()">entrar ></button>
+    <button onclick="login()">Entrar</button>
     </div>
-    <div class = "error-div" id=" error-modal">
+    <div class = "error-div" id="error-modal">
         <h3>Usuário ou Senha Incorretos!</h3>
         <button onclick="fecharError()">Fechar</button>
     </div>
