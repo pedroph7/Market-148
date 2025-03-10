@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src ="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <div class ="container">
+        <h1>Login</h1>
+        <input type="text" placeholder="bota teu nome garotao" id=" nome">
+        <div>
+        <input type="text" placeholder="bota tua senha ai guri viado" id=" senha">
+        <span onclick="showPassword()" class=" key">👀</span>
+    </div>
+    <button onclick="login"></button>
+    </div>
+    <div class = "error-div" id=" error-modal">
+        <h3>Credenciais incorretas burrao</h3>
+        <button onclick="fecharError()">fecha</button>
+    </div>
+</body>
+</html>
