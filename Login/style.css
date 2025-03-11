@@ -1,7 +1,7 @@
 
 :root{
-    --branco: white;
-    --escuro: black;
+    --branco: rgb(168, 234, 178);
+    --escuro: rgb(3, 23, 11);
 }
 *{
     padding: 0;

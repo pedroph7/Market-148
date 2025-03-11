@@ -12,7 +12,7 @@ function login(){
 
         localStorage.setItem("usuario", JSON.stringify(user))
 
-        window.location.href = "https://www.boticario.com.br/"
+        window.location.href = "../Loja/"
     }else{
         document.getElementById("error-modal").style.display = "flex"
         document.getElementById("nome").style.border = "2px solid red"
